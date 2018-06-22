@@ -1,8 +1,9 @@
 ---
 layout: page
 title: Art
+show-avatar: false
 images:
-    - image_path: /img/gallery/Arbie_Globe_1025_PRINT_copy.jpg
+    - image_path: /img/gallery/Arbie_Globe_1025_PRINT.jpg
       title:
     - image_path: /img/gallery/Arby_Groceries_0507a_print.jpg
       title:
