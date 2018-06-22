@@ -23,7 +23,7 @@ title: Phil's Portfolio
 
 # List of links in the navigation bar
 navbar-links:
-  About Me: "aboutme"
+  About Me: "index"
   Resources:
     - Animation: "animation"
     - Previs: "previs"
