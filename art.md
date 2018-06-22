@@ -1,16 +1,39 @@
 ---
 layout: page
-title: About me
-subtitle: Why you'd want to go on a date with me
+title: Art
+images:
+    - image_path: img/gallery/Arbie_Globe_1025_PRINT_copy.jpg
+      title:
+    - image_path: img/gallery/Arby_Groceries_0507a_print.jpg
+      title:
+    - image_path: img/gallery/Arby_Snowboard_0124_PRINT_03_WHITE.jpg
+      title:
+    - image_path: img/gallery/01a.jpg
+      title:
+    - image_path: img/gallery/02a.jpg
+      title:
+    - image_path: img/gallery/model_snowmobile.jpg
+      title:
+    - image_path: img/gallery/nara-hero-01(1).jpg
+      title:
+    - image_path: img/gallery/nara-hero-01wire.jpg
+      title:
+    - image_path: img/gallery/nara-hero-standing-02.jpg
+      title:
+    - image_path: img/gallery/nara-hero-standing-03.jpg
+      title:
+    - image_path: img/gallery/gladiator_april 2008_textured_2.jpg
+      title:
+    - image_path: img/gallery/gladiator_may2008_rotation01.jpg
+      title:
+    - image_path: img/gallery/gladiator_may2008_rotation02.jpg
+      title:
+    - image_path: img/gallery/3dgirl02.jpg
+      title:
 ---
 
-My name is Inigo Montoya. I have the following qualities:
-
-- I rock a great mustache
-- I'm extremely loyal to my family
-
-What else do you need?
-
-### my history
-
-To be honest, I'm having some trouble remembering right now, so why don't you just watch [my movie](http://en.wikipedia.org/wiki/The_Princess_Bride_%28film%29) and it will answer **all** your questions.
+<ul class="photo-gallery">
+        {% for image in page.images %}
+            <li><img src="{{ image.image_path }}" /></li>
+        {% endfor %}
+</ul>
