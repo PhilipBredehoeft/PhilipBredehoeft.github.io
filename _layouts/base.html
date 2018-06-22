@@ -21,7 +21,12 @@ common-js:
 
   <body
   {% if page.bgimage %}
-    style="background-image: url({{ page.bgimage }})"
+    style="background-image: url({{ page.bgimage }});
+    background-attachment: fixed;
+    background-attachment: scroll;
+    background-repeat: no-repeat;
+    background-size: 100%;
+    background-position: center;"
   {% endif %} 
   >
 
