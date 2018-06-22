@@ -12,7 +12,7 @@ body {
   color: #404040;
   position: relative;
   background-color: {{ site.page-col }};
-  {% if site.page-img %}
+  {% if page.page-img %}
   background-image: url({{ site.page-img }});
   background-attachment: scroll;
   background-repeat: no-repeat;
