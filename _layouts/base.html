@@ -19,7 +19,11 @@ common-js:
   <!-- Beautiful Jekyll | MIT license | Copyright Dean Attali 2016 -->
   {% include head.html %}
 
-  <body>
+  <body
+  {% if page.bgimage %}
+    style="background-image: url({{ page.bgimage }})"
+  {% endif %} 
+  >
 
     {% include gtm_body.html %}
   
