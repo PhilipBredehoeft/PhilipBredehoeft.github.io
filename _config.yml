@@ -14,7 +14,7 @@ baseurl: ""
 # Of course don't forget to change the username and projectname to YOUR username and project
 
 # Name of website
-title: Phil's Portfolio 
+title: Philil Bredehoeft
 
 # Short description of your site
 # description: A virtual proof that name is awesome!
@@ -24,11 +24,10 @@ title: Phil's Portfolio
 # List of links in the navigation bar
 navbar-links:
   About Me: "index"
-  Resources:
-    - Animation: "animation"
-    - Previs: "previs"
-    - Rigging: "rigging"
-    - Art: "art"
+  Animation: "animation"
+  Previs: "previs"
+  Rigging: "rigging"
+  Art: "art"
 
 # Image to show in the navigation bar - image must be a square (width = height)
 # Remove this parameter if you don't want an image in the navbar
