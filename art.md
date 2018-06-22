@@ -33,8 +33,8 @@ images:
       title:
 ---
 
-<ul class="photo-gallery">
+<ul class="photo-gallery" style="text-align: center; margin-right: 10%; margin-left: 10%">
         {% for image in page.images %}
-            <li><img src="{{ image.image_path }}" /></li>
+            <li style="display: inline-block; list-style: none"><img src="{{ image.image_path }}" /></li>
         {% endfor %}
 </ul>
