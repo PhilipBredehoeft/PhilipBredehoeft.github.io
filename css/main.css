@@ -13,7 +13,7 @@ body {
   position: relative;
   background-color: {{ site.page-col }};
   {% if page.page-img %}
-  background-image: url({{ page.page-img }});
+  background-image: url({{ site.page-img }});
   background-attachment: scroll;
   background-repeat: no-repeat;
   background-size: 100%;
